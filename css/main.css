@@ -16,29 +16,29 @@ body {
 }
 
 div.container {
-    height: 4rem;
-    width: 10rem;
+    height: 8rem;
+    width: 20rem;
     overflow: hidden;
 }
 
 .figure-wrapper {
     display: flex;
-    height: 4rem;
-    width: 10rem;
+    height: 8rem;
+    width: 20rem;
 }
 
 div.fig-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 4rem;
-    width: 8rem;
-    margin: 0 2rem;
+    height: 8rem;
+    width: 16rem;
+    margin: 0 4rem;
 }
 
 figure {
-    height: 2rem;
-    width: 6rem;
+    height: 4rem;
+    width: 12rem;
 }
 
 figcaption {
@@ -49,8 +49,8 @@ figcaption {
 }
 
 img {
-    height: 2rem;
-    width: 4rem;
+    height: 4rem;
+    width: 8rem;
 }
 
 button[title = 'arrow'] {
