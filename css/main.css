@@ -12,33 +12,45 @@ body {
     justify-content: center;
     min-height: 100vh;
     align-items: center;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 
 div.container {
-    height: 10rem;
-    width: 22rem;
+    height: 12rem;
+    width: 20rem;
     overflow: hidden;
 }
 
 .figure-wrapper {
     display: flex;
-    height: 10rem;
-    width: 22rem;
+    height: 12rem;
+    width: 20rem;
 }
 
 div.fig-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10;
-    width: 18rem;
+    height: 12rem;
+    width: 12rem;
     margin: 0 4rem;
 }
 
+
+div.fig-container-0 figcaption {
+    position: absolute;
+    bottom: 1rem;
+}
+
+div.fig-container-1 img {
+    top: 1rem;
+}
+
 figure {
-    height: 6rem;
-    width: 14rem;
+    height: 10rem;
+    width: 12rem;
+    position: relative;
+    top: 0;
 }
 
 figcaption {
@@ -51,6 +63,9 @@ figcaption {
 img {
     height: 6rem;
     width: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 button[title = 'arrow'] {
@@ -78,34 +93,38 @@ button.right-arrow {
 
 @media screen and (min-width: 40em) {
     body {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
 
     div.container {
-        height: 16rem;
-        width: 40rem;
+        height: 17.5rem;
+        width: 66rem;
     }
 
     .figure-wrapper {
         display: flex;
-        height: 16rem;
-        width: 40rem;
+        height: 17.5rem;
+        width: 66rem;
     }
     
     div.fig-container {
-        height: 16rem;
-        width: 32rem;
+        height: 17.5rem;
+        width: 50rem;
         margin: 0 8rem;
+    }
+
+    div.fig-container-1 img {
+        top: 2rem;
     }
     
     figure {
-        height: 8rem;
-        width: 24rem;
+        height: 17.5rem;
+        width: 50em;
     }
 
     img {
-        height: 8rem;
-        width: 12rem;
+        height: 15rem;
+        width: 25rem;
     }
 
     button[title = 'arrow'] {
@@ -118,34 +137,38 @@ button.right-arrow {
 
 @media screen and (min-width: 80em) {
     body {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     div.container {
-        height: 32rem;
-        width: 80rem;
+        height: 35rem;
+        width: 132rem;
     }
 
     .figure-wrapper {
         display: flex;
-        height: 32rem;
-        width: 80rem;
+        height: 35rem;
+        width: 132rem;
     }
     
     div.fig-container {
-        height: 32rem;
-        width: 64rem;
+        height: 35rem;
+        width: 100rem;
         margin: 0 16rem;
+    }
+
+    div.fig-container-1 img {
+        top: 4rem;
     }
     
     figure {
-        height: 16rem;
-        width: 48rem;
+        height: 35rem;
+        width: 100rem;
     }
 
     img {
-        height: 16rem;
-        width: 24rem;
+        height: 30rem;
+        width: 50rem;
     }
 
     button[title = 'arrow'] {
