@@ -45,7 +45,7 @@ figcaption {
 }
 
 table {
-    font-size: 0.2rem;
+    font-size: 0.3rem;
     text-align: left;
 }
 
@@ -132,7 +132,7 @@ span[class ^= 'arrow-'] {
     }
 
     table {
-        font-size: 0.4rem;
+        font-size: 0.6rem;
     }
 
     img {
@@ -204,7 +204,7 @@ span[class ^= 'arrow-'] {
     }
 
     table {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 
     img {
